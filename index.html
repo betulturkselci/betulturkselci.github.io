@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Anasayfa</title>
+    
+</head>
+<body>
+
+  <!-- scroll-top-button -->
+ <!-- Kaynak: https://www.codingnepalweb.com/2020/04/scroll-to-top-or-back-to-top-button.html -->
+<div class="arrow">
+  <a href="#" title="Back to Top" id="arrow"><span class="fas fa-angle-up"></span></a>
+</div>
+  
+  <!-- Navigation Bar -->
+  <!-- (22-56.Satırlar) 
+  Kaynak: https://getbootstrap.com/docs/4.0/components/navbar/ -->
+
+    <div class="header-wrapper">
+        <div class="site-header-sticky">
+            <header class="site-header" data-sticky="true" id="arkaplan">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <!-- <img src="images/logo.png" style="width:200px"> -->
+                    <a class="navbar-brand" href="#">Betül Türkselçi </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Linkler
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="video.html">Video</a>
+                              <a class="dropdown-item" href="game.html" target="_blank">Oyun</a>
+                              <a class="dropdown-item" href="iletisim.html">İletişim</a>
+                               
+                            </div>
+                          </li>
+                    
+                        <li class="nav-item">
+                          <a class="nav-link" href="aboutme.html" target="_blank">Hakkımda</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </header>
+        </div>
+    </div>
+
+    <section class="banner"></section>
+
+    <!-- Duyurular -->
+    <!-- (62-75.Satırlar) 
+    Kaynak: https://www.codingnepalweb.com/2020/08/responsive-owl-carousel-slider-using-jquery.html -->
+
+    <div class="section2">
+      <div class="container"><p style="font-size: 50px;">DUYURULAR</p></div>
+      <div class="container">
+      <div class="wrapper">
+        <div class="carousel1 owl-carousel">
+          <div class="card card-1"><img class="duyuru-img" src="images/d1.jpg" alt=""></div>
+          <div class="card card-2"><img src="images/d2.jpg" alt=""></div>
+          <div class="card card-3"><img src="images/d3.jpg" alt=""></div>
+          <div class="card card-4"><img src="images/d4.jpg" alt=""></div>
+          <div class="card card-5"><img src="images/d5.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    
+      <!-- Slider  -->
+      <!-- (82-106.Satırlar) 
+      Kaynak: https://getbootstrap.com/docs/4.0/components/carousel/ -->
+
+      <div class="section3">
+        <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/sl1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/sl2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/sl3.jpeg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      </div>
+
+
+      
+
+      
+
+
+      <!-- HABERLER -->
+      <!-- Kaynak: https://www.youtube.com/watch?v=pcH_FSEZoD4&list=LL&index=6 -->
+
+      <div class="haberler">
+
+        
+        <div class="news-wrap">
+          <div class="container"><p style="font-size: 50px;">HABERLER</p></div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="news-grid">
+                  <div class="news-grid-image"><img src="images/hbr1.jpeg" alt="">
+                    <div class="news-grid-box">
+                      <h1>21</h1>
+                      <p>Aralık</p>
+                    </div>
+                  </div> 
+                     <div class="news-grid-txt">
+                       <span>Kripto Para</span>
+                       <h2>Bitcoin'den Tarihi Zirve: 1 Bitcoin 24 Bin 161 Dolar Oldu</h2>
+                       <ul>
+                         <li><i class="fa fa-calendar" aria-hidden="true"></i>21.12.20</li>
+                         <li><i class="fa fa-user" aria-hidden="true"></i>Admin</li>
+                       </ul>
+                       <p>Son yılların en popüler yatırım araçlarından Bitcoin, yeni bir tarihi zirve gördü. Bugün itibarıyla 24 bin 161 dolar seviyelerine ulaşan Bitcoin, mart ayından sonra yüzde 626 civarında değerlenmiş oldu. Ancak altcoinler için durum, istenildiği gibi gitmiyor.</p>
+                       <a href="https://www.webtekno.com/bitcoin-bitcoin-24-bin-161-dolari-gordu-h103696.html" target="_blank">Daha fazla</a>
+                     </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-sm-12">
+                <div class="news-grid">
+                  <div class="news-grid-image"><img src="images/hbr2.png" alt="">
+                    <div class="news-grid-box">
+                      <h1>23</h1>
+                      <p>Aralık</p>
+                    </div>
+                  </div> 
+                     <div class="news-grid-txt">
+                       <span>Bilim</span>
+                       <h2>Bilim İnsanları İlk Kez Uzun Mesafe Kuantum Işınlaması Gerçekleştirmeyi Başardı</h2>
+                       <ul>
+                         <li><i class="fa fa-calendar" aria-hidden="true"></i>23.12.20</li>
+                         <li><i class="fa fa-user" aria-hidden="true"></i>Admin</li>
+                       </ul>
+                       <p>Bir grup bilim insanı, kuantum dolanıklığı kullanarak fiber optik kablolar aracılığıyla 44 km'lik bir mesafede ışınlama gerçekleştirdi. Bu araştırma, kuantum internetinin hayata geçirilmesi konusunda atılmış büyük bir adım olarak görülüyor.</p>
+                       <a href="https://www.webtekno.com/uzun-mesafe-kuantum-isinlamasi-gerceklestirildi-h103776.html" target="_blank">Daha fazla</a>
+                     </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-12">
+                <div class="news-grid">
+                  <div class="news-grid-image"><img src="images/hbr3.jpeg" alt="">
+                    <div class="news-grid-box">
+                      <h1>25</h1>
+                      <p>Ekim</p>
+                    </div>
+                  </div> 
+                     <div class="news-grid-txt">
+                       <span>Yapay Zeka</span>
+                       <h2>Facebook, İngilizce Veri Seti Olmadan 100 Dil Arasında Çeviri Yapabilen Modelini Tanıttı</h2>
+                       <ul>
+                         <li><i class="fa fa-calendar" aria-hidden="true"></i>25.10.20</li>
+                         <li><i class="fa fa-user" aria-hidden="true"></i>Admin</li>
+                       </ul>
+                       <p>Facebook, geliştirdiği yapay zekâ sayesinde 100 dilde çeviri yapabilen modelini tanıttı. Şirketin geliştirdiği bu modelin en büyük farkı İngilizce veri setine duyulan ihtiyacı tamamen ortaya kaldırması oldu.</p>
+                       <a href="https://www.webtekno.com/facebook-ingilizce-veri-seti-olmadan-100-dil-arasinda-ceviri-yapabilen-modelini-tanitti-h101154.html" target="_blank">Daha fazla</a>
+                     </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <!-- (160-198.Satırlar) 
+      Kaynak: https://www.codingnepalweb.com/2020/04/responsive-footer-section-design-html-css.html -->
+      
+    <div class="section5">
+      <footer>
+          <div class="main-content">
+            
+              <div class="left box">
+                  <h2>Hakkımda</h2>
+                  <div class="content">
+                    <p>Gündemi takip etmeyi seven, psikoloji ve teknoloji meraklısı öğrenci birey.</p>
+                    <div class="social">
+                      <a href="https://facebook.com"><span class="fab fa-facebook-f"></span></a>
+                      <a href="https://twitter.com"><span class="fab fa-twitter"></span></a>
+                      <a href="https://instagram.com"><span class="fab fa-instagram"></span></a>
+                      <a href="https://youtube.com"><span class="fab fa-youtube"></span></a>
+                    </div>
+                    <div class="copyright">
+                      <p style="padding-top: 15px;">&copy; 2020 Tüm Hakları Saklıdır.</p>
+                    </div>
+                 </div>
+               </div>
+
+              <div class="center box">
+                  <h2>Bilgilerim</h2>
+                  <div class="content">
+                    <div class="place">
+                      <span class="fas fa-map-marker-alt"></span>
+                      <span class="text">Gebze, Kocaeli</span>
+                    </div>
+                    <div class="phone">
+                      <span class="fas fa-phone-alt"></span>
+                      <span class="text">+090-5300000000</span>
+                    </div>
+                    <div class="email">
+                      <span class="fas fa-envelope"></span>
+                      <span class="text" style="font-size: 15px;">betulturkselci1@gmail.com</span>
+                    </div>
+                 </div>
+               </div>
+
+           </div>
+      </footer>
+     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
+    
+
+    
+
+    
+
+</body>
+</html>

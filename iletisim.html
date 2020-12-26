@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iltstyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>İletişim</title>
+</head>
+<body>
+
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Betül Türkselçi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Linkler
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="video.html">Video</a>
+                              <a class="dropdown-item" href="game.html" target="_blank">Oyun</a>
+                              <a class="dropdown-item" href="iletisim.html">İletişim</a>
+                </div>
+              </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">Hakkımda</a>
+            </li>
+          </ul>
+        </div>  
+      </nav> 
+
+      <!-- (44-97.Satırlar) İnternetten alarak oluşturdum. 
+      Kaynak: https://www.codingnepalweb.com/2020/07/responsive-contact-us-form-using-html-css.html -->
+
+      <div class="panel">
+      <div class="container" style="width: 600px; ">
+        <div class="text">Benimle İletişime Geçin</div>
+      <form action="https://formspree.io/betulturkselci1@gmail.com" method="POST">
+          <div class="form-row">
+            <div class="input-data">
+              <input type="text" name="ad" required>
+              <div class="underline"></div>
+              <label for="ad">Adınız</label>
+            </div>
+            <div class="input-data">
+              <input type="text" name="soyad" required>
+              <div class="underline"></div>
+              <label for="soyad">Soyadınız</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+              <input type="email" name="email" required>
+              <div class="underline"></div>
+              <label for="email">E-mail Adresiniz</label>
+            </div>
+            <div class="input-data">
+              <input type="date" name="dg" required>
+              <div class="underline"></div>
+              <label for="dg">Doğum Tarihi</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-data">
+              <input type="text" required>
+              <div class="underline"></div>
+              <label for="">Telefon</label> 
+              <br />
+           </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data textarea">
+              <textarea rows="8" cols="80" required></textarea> 
+              <br />
+              <div class="underline"></div>
+              <label for="">Mesajınız</label> 
+              <br />
+           </div>
+         </div>
+          <div class="form-row submit-btn">
+            <div class="input-data">
+              <div class="inner"></div>
+              <input type="submit" value="Gönder">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="section5" style="margin-top: 0px;">
+      <footer>
+          <div class="main-content">
+            
+              <div class="left box">
+                  <h2>Hakkımda</h2>
+                  <div class="content">
+                    <p>Gündemi takip etmeyi seven, psikoloji ve teknoloji meraklısı öğrenci birey.</p>
+                    <div class="social">
+                      <a href="https://facebook.com"><span class="fab fa-facebook-f"></span></a>
+                      <a href="https://twitter.com"><span class="fab fa-twitter"></span></a>
+                      <a href="https://instagram.com"><span class="fab fa-instagram"></span></a>
+                      <a href="https://youtube.com"><span class="fab fa-youtube"></span></a>
+                    </div>
+                    <div class="copyright">
+                      <p style="padding-top: 15px;">&copy; Tüm Hakları Saklıdır.</p>
+                    </div>
+                 </div>
+               </div>
+
+              <div class="center box">
+                  <h2>Bilgilerim</h2>
+                  <div class="content">
+                    <div class="place">
+                      <span class="fas fa-map-marker-alt"></span>
+                      <span class="text">Gebze, Kocaeli</span>
+                    </div>
+                    <div class="phone">
+                      <span class="fas fa-phone-alt"></span>
+                      <span class="text">+090-5300000000</span>
+                    </div>
+                    <div class="email">
+                      <span class="fas fa-envelope"></span>
+                      <span class="text" style="font-size: 15px;">betul.turkselci@gmail.com</span>
+                    </div>
+                 </div>
+               </div>
+
+           </div>
+      </footer>
+     </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="scripts.js"></script>
+
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
